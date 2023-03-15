@@ -2,10 +2,8 @@ import React from "react";
 
 export default function Head() {
   return (
-    <>
-      <div>
-        <h1>Hi</h1>
-      </div>
-    </>
+    <div className="w-full h-10 bg-purple-200">
+      <h1>Header</h1>
+    </div>
   );
 }
